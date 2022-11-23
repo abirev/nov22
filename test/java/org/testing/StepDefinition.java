@@ -20,7 +20,7 @@ public class StepDefinition {
 	    driver.get("https://www.facebook.com/login.php");
 	}
 
-	@When("user enter username pwd")
+	@When("user -enter username pwd")
 	public void user_enter_username_pwd() {
 	   driver.findElement(By.id("email")).sendKeys("abi");
 	   driver.findElement(By.id("pass")).sendKeys("rev");
