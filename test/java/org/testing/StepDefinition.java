@@ -27,7 +27,7 @@ public class StepDefinition {
 	   
 	}
 
-	@And("click login button")
+	@And("click button")
 	public void click_login_button() {
 	   driver.findElement(By.name("login")).click();
 	}
